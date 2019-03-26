@@ -1,0 +1,36 @@
+.navigatie li{
+    list-style: none;
+    margin:0 5px;
+}
+.navigatie li i{
+    width:10px;
+    margin:0 10px 0 0;
+}
+.navigatie li a{
+    text-decoration: none;
+    display:block;
+    width:100px;
+    padding:10px;
+    border:2px solid gray;
+    background-color: lightblue;
+
+}
+.navigatie li a:hover{
+    background-color:blue;
+    transition: ease-in-out 0.2s;
+    color:black;
+}
+footer{
+    position:fixed;
+    bottom:0;
+}
+.subscribtion{
+    border: 1px solid black;
+    border-radius:5px;
+    padding: 20px;
+    margin:5px;
+    width:29%;
+    height:200px;
+    float: left;
+    text-align: center;
+}
